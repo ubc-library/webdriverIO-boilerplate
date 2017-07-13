@@ -1,4 +1,4 @@
-let utility = require('./../../utility');
+let utility = require('./../utility');
 let config = utility.config();
 console.log(utility)
 
