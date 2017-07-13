@@ -1,0 +1,28 @@
+{
+  "name": "wdio_tests",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "bash ./selenium_screen.sh",
+    "stop": "screen -X -S selenium kill",
+    "test": "wdio wdio.conf.js",
+    "install": "selenium-standalone install"
+  },
+  "author": "schuyberg",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chromedriver": "^2.30.1",
+    "fibers": "^1.0.15",
+    "geckodriver": "^1.7.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "selenium-standalone": "^6.5.0",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.8.0"
+  }
+}

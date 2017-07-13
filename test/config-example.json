@@ -1,0 +1,5 @@
+{
+  "libguest_pass": "pass",
+  "libdummy_pass": "pass",
+   "base_url" : "url"
+}
